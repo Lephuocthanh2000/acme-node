@@ -27,7 +27,7 @@ export const greet = async (req, res, next) => {
     res.status(200).json({
       data: {
         language: greetingResponse.language,
-        greeting: greetingResponse.greeting + 'hello',
+        greeting: greetingResponse.greeting,
         audience: personResponse.name || defaultAudience,
       },
     });
