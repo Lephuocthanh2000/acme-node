@@ -96,7 +96,7 @@ services:
   greeting-service:
     image: ghcr.io/gitops-ci-cd/greeting-service:d7f87fd4984b2c3c576f5b2b002e8f69afc743f6
     environment:
-      - PORT=50051
+      - PORT=50052
       - LOG_LEVEL=DEBUG
 
 volumes:
